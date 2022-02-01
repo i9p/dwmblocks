@@ -1,10 +1,11 @@
 /* blocks */
 static const Block blocks[] = {
 	/* icon   command                update  signal */
-	{ "",     "status-temp",         1,      7 },
-	{ "",     "status-cpu",          2,      6 },
-	{ "",     "status-filesystem",   60,     5 },
-	{ "",     "status-memory",       5,      4 },
+	{ "",     "status-temp",         1,      8 },
+	{ "",     "status-cpu",          2,      7 },
+	{ "",     "status-filesystem",   60,     6 },
+	{ "",     "status-memory",       5,      5 },
+	{ "",     "status-network",      1,      4 },
 	{ "",     "status-delim",        0,      0 },
 	{ "",     "status-volume",       0,      3 },
 	{ "",     "status-delim",        0,      0 },
@@ -13,5 +14,5 @@ static const Block blocks[] = {
 };
 
 /* delimiter */
-static char delim[] = "\0"; /* NULL ('\0') means no delimiter */
+static char delim[] = ""; /* NULL ('\0') means no delimiter */
 static unsigned int delimLen = 0;
